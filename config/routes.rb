@@ -1,21 +1,9 @@
 BuildManager::Application.routes.draw do
   resources :builds
-
-  get "environment/add"
-  get "environment/show"
-  get "environment/edit"
-  get "environment/list"
-  get "environment/remove"
-  get "environment/listBuilds"
-  get "environment/addBuild"
-  get "environment/removeBuild"
-  get "environment/listDeps"
-  get "environment/addDep"
-  get "environment/removeDep"
-  get "environment/listServer"
-  get "environment/addServer"
-  get "environment/removeServer"
-  get "environment/changeState"
+  scope :api do
+    get "/builds(.:format)" => "builds#index"
+    get "/builds/:id(.:format)" => "builds#show"
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
