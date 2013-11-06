@@ -1,4 +1,6 @@
 BuildManager::Application.routes.draw do
+  resources :builds
+
   get "environment/add"
   get "environment/show"
   get "environment/edit"

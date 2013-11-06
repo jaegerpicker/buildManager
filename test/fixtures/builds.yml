@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: First Build
+  description: First Build to manage
+  build_date: 2013-11-06 14:16:06
+  built_by: Shawn
+
+two:
+  name: Second Build
+  description: A second build to manage
+  build_date: 2013-11-06 14:16:06
+  built_by: Shawn
