@@ -1,3 +1,19 @@
+<br/>
+<br/>
 <div ng-controller="BuildManagerCtrl">
-    <h1>Message: {{message}}</h1>
+    <div id="buildmanager-list-container">
+        <ul>
+            <li ng-repeat="b in build" ng-click="showBuild(b)">
+                <h3 ng-class="{active: $index == selectedRow}">{{b.name}} <small>({{b.description}})</small></h3>
+            </li>
+        </ul>
+    </div>
+    <div id="buildmanager-view-container" ng-show="selectedBuild">
+        <h2>{{selectedBuild.name}}</h2>
+        <p>{{selectedBuild.description}}</p>
+        <p>
+            Built at {{selectedBuild.build_date | date: 'mediumDate'}}
+            - By {{selectedBuild.built_by}}
+        </p>
+    </div>
 </div>
