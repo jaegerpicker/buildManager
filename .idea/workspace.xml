@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78482ffc-9519-497b-a732-5adc8ab32c0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-    </list>
+    <list default="true" id="78482ffc-9519-497b-a732-5adc8ab32c0c" name="Default" comment="" />
     <ignored path="buildManager.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../railsWebSocketTest/atlassian-ide-plugin.xml" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383709178767" ignored="false" />
