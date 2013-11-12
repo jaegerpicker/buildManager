@@ -1,3 +1,11 @@
 language: ruby
 rvm:
   - 1.9.3
+services:
+  - mongodb
+  - rabbitmq
+  - memcached
+
+before_script:
+  - mysql -e 'create database buildManager_test'
+  - mongo mydb_test --eval 'db.addUser("travis", "test");'
