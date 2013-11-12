@@ -13,8 +13,8 @@ deploy:
   api_key:
     secure: KC4/WnlXD8UbpSBJzJP5+pvmNrBB7XErF3OehudEFkeYmHwOnHb+SDMIoyud0hrRDkdsF3omXOYBMKRRAmojk4c2s+7QivZpzYwpHssyP6LTuTI4IZvS5sLPowwf+fAsTfQwmi/Hsx62jRLCu6R3VV/yvBtlusRQpi5ntkxinQI=
   app: buildmanager
+  strategy: git
   run:
-    - mysql -e 'create database buildmanager_production'
     - "rake db:migrate"
     - "rake cleanup"
     - restart
