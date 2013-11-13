@@ -1,0 +1,20 @@
+language: ruby
+rvm:
+- 1.9.3
+services:
+- mongodb
+- rabbitmq
+- memcached
+before_script:
+- mysql -e 'create database buildManager_test'
+- mongo mydb_test --eval 'db.addUser("travis", "test");'
+deploy:
+  provider: heroku
+  api_key:
+    secure: KC4/WnlXD8UbpSBJzJP5+pvmNrBB7XErF3OehudEFkeYmHwOnHb+SDMIoyud0hrRDkdsF3omXOYBMKRRAmojk4c2s+7QivZpzYwpHssyP6LTuTI4IZvS5sLPowwf+fAsTfQwmi/Hsx62jRLCu6R3VV/yvBtlusRQpi5ntkxinQI=
+  app: buildmanager
+  strategy: git
+  run:
+    - "rake db:migrate"
+    - "rake cleanup"
+    - restart

@@ -25,9 +25,8 @@ test:
   encoding: utf8
   database: buildManager_test
   pool: 5
-  username: root
+  username: travis
   password:
-  socket: /tmp/mysql.sock
 
 production:
   adapter: mysql2
