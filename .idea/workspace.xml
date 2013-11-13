@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78482ffc-9519-497b-a732-5adc8ab32c0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/services/builds.js.coffee" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/environment.css.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/environment_helper.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildManager.iml" afterPath="$PROJECT_DIR$/buildManager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/buildmanager_ctrl.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/buildmanager_ctrl.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buildManager.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../railsWebSocketTest/atlassian-ide-plugin.xml" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383709178767" ignored="false" />
     <file path="/Dummy.txt" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383793448140" ignored="false" />
-    <file path="$PROJECT_DIR$/../TruthIt/Truth/atlassian-ide-plugin.xml" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383888654002" ignored="false" />
+    <file path="$PROJECT_DIR$/../TruthIt/Truth/atlassian-ide-plugin.xml" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1384023456674" ignored="false" />
     <file path="/builds.yml" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383766753581" ignored="false" />
     <file path="/build_test.rb" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383766727998" ignored="false" />
     <file path="/build.rb" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383766778413" ignored="false" />
@@ -38,7 +31,6 @@
     <file path="$PROJECT_DIR$/../TruthIt/Truth/logs/debug.log" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383878646407" ignored="false" />
     <file path="/home.css.scss" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383883433058" ignored="false" />
     <file path="/dummy.xml" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383886287007" ignored="false" />
-    <file path="$PROJECT_DIR$/atlassian-ide-plugin.xml" changelist="78482ffc-9519-497b-a732-5adc8ab32c0c" time="1383888654002" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +154,10 @@
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/buildmanager_ctrl.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="28" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1383888579000" expanded="true" signature="77:333" placeholder="..." />
+                <marker date="1383888579000" expanded="true" signature="276:333" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,7 +165,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="66" selection-start="394" selection-end="394" vertical-scroll-proportion="0.36893204">
+            <state line="16" column="93" selection-start="619" selection-end="619" vertical-scroll-proportion="0.59029126">
               <folding />
             </state>
           </provider>
@@ -668,6 +663,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -1197,7 +1193,7 @@
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39817628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39817628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1395,13 +1391,16 @@
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/buildmanager_ctrl.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="28" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1383888579000" expanded="true" signature="77:333" placeholder="..." />
+            <marker date="1383888579000" expanded="true" signature="276:333" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="66" selection-start="394" selection-end="394" vertical-scroll-proportion="0.36893204">
+        <state line="16" column="93" selection-start="619" selection-end="619" vertical-scroll-proportion="0.59029126">
           <folding />
         </state>
       </provider>
